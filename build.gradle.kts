@@ -13,8 +13,6 @@ java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
 	mavenCentral()
-	jcenter()
-	maven(url = "http://oss.jfrog.org/artifactory/oss-snapshot-local/")
 }
 
 dependencies {
