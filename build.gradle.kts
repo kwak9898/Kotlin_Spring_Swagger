@@ -22,10 +22,10 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	implementation("io.springfox:springfox-swagger2:3.0.0-SNAPSHOT")
-	implementation("io.springfox:springfox-spring-webflux:3.0.0-SNAPSHOT")
-	implementation("io.springfox:springfox-swagger-ui:3.0.0-SNAPSHOT")
-	implementation("io.springfox:springfox-bean-validators:3.0.0-SNAPSHOT")
+	implementation("io.springfox:springfox-swagger2:3.0.0")
+	implementation("io.springfox:springfox-spring-webflux:3.0.0")
+	implementation("io.springfox:springfox-swagger-ui:3.0.0")
+	implementation("io.springfox:springfox-bean-validators:3.0.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
