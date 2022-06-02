@@ -19,7 +19,7 @@ class ApplicationConfig {
         return Docket(DocumentationType.SWAGGER_2)
             .apiInfo(getApiInfo())
             .select()
-            .apis(RequestHandlerSelectors.basePackage("com.hendisantika.swagger.kotlin.controller"))
+            .apis(RequestHandlerSelectors.basePackage("com.example.kotlin_spring_swagger.kotlin.controller"))
             .paths(PathSelectors.any())
             .build()
     }
